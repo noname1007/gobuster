@@ -297,11 +297,11 @@ func (d *GobusterDir) ProcessWord(ctx context.Context, word string, progress *li
 		}
 
 		if resultStatus && !d.options.ExcludeLengthParsed.Contains(int(size)) {
-			path := "/"
+			path := fmt.Sprintf("%-20s", entity)
 			if d.options.Expanded {
-				path = url.Path
+				// expanded mode should show the full url
+				path = url.String()
 			}
-			path = fmt.Sprintf("%s%-20s", path, entity)
 
 			r := Result{
 				Path:       path,

@@ -344,6 +344,26 @@ _Remember: Always test responsibly and with proper authorization._
 
 <details>
 
+<summary>3.8.2</summary>
+
+## 3.8.2
+
+- Fix expanded mode to show the full url again
+
+</details>
+
+<details>
+
+<summary>3.8.1</summary>
+
+## 3.8.1
+
+- Fix expanded mode showing the entries twice
+
+</details>
+
+<details>
+
 <summary>3.8</summary>
 
 ## 3.8
